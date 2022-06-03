@@ -1,9 +1,9 @@
-# Paser table
+# Table parse
 Parse HTML table data from DOM to JSON
 
 ### Usage
 ```js
-import parseTable from 'parse-table'
+import tableParse from 'table-parse'
 
-const jsonData = parserTable('tableCssSelectorHere')
+const jsonData = tableParse('tableCssSelectorHere')
 ```

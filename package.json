@@ -1,12 +1,12 @@
 {
-  "name": "parse-table",
+  "name": "table-parse",
   "version": "1.0.0",
   "description": "Parse HTML table data from DOM to JSON",
   "main": "dist/lib.js",
-  "homepage": "https://github.com/codewaft/parse-table#readme",
-  "repository": "github:codewaft/parse-table",
+  "homepage": "https://github.com/codewaft/table-parse#readme",
+  "repository": "github:codewaft/table-parse",
   "scripts": {
-    "build": "npx tsc",
+    "build": "rm -rf dist && npx tsc",
     "prepublish": "npm run build"
   },
   "keywords": [],

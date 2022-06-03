@@ -1,4 +1,4 @@
-export default function parseTable (selector: string) {
+export default function tableParse (selector: string) {
   const table = document.querySelector(selector)
   if (table) {
     const headers = [...table.querySelectorAll('th')]
